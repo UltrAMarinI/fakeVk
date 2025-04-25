@@ -23,7 +23,7 @@
 
 .logo-img{
     width: 150px;
-    height: 30px;
+    height: 25px;
 }
 
 .bell-img{
@@ -33,4 +33,22 @@
 
 input{
     border-radius: 20px;
+    background-color: rgb(188, 187, 187);
+    border: 0px;
+}
+
+.search-filed{
+    width: 150px;
+    border: 0px;
+}
+
+.search-filed:focus{
+    outline: none;
+}
+
+.search-icon{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    order: -1;
 }
