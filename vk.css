@@ -69,3 +69,13 @@ input {
     width: 50;
 
 }
+
+.wertical-center{
+    display: flex;
+    align-items: center;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
