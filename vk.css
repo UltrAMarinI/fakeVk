@@ -104,7 +104,7 @@ body {
 
 .content {
   height: calc(100% - 45px);
-  background-color: rgb(219, 216, 216);
+  background-color: rgb(227, 227, 227);
 }
 
 .text-menu {
@@ -206,7 +206,7 @@ body {
   border-radius: 10px;
 }
 
-.bot-edit{
+.bot-edit {
   width: 250px;
   display: flex;
   align-items: center;
@@ -214,7 +214,7 @@ body {
   margin-left: 4%;
 }
 
-.gift{
+.gift {
   display: flex;
   flex-direction: column;
   background-color: white;
@@ -222,25 +222,42 @@ body {
   padding: 5px;
 }
 
-.gift-img{
+.gift-img {
   height: 70px;
   width: 70px;
 }
 
-.gift-row{
+.gift-row {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   margin-top: 10px;
 }
 
-.gift-txt{
+.gift-txt {
   margin-right: 10px;
   margin-left: 5px;
   font-family: Arial, sans-serif;
 }
 
-.gift-num{
+.gift-num {
   color: rgb(176, 173, 173);
   font-family: Arial, sans-serif;
+}
+
+.friends-row {
+  display: flex;
+  justify-content: space-around;
+}
+
+.ava-friends {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+
+.friends{
+  background-color: white;
+  margin-top: 5%;
+  padding: 5px;
 }
